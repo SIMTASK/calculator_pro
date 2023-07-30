@@ -1,0 +1,27 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:green;
+  }
+  
+  #result {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color:red;
+    border: none;
+    cursor: pointer;
+  }
+  
